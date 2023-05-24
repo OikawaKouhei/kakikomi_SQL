@@ -1,0 +1,1 @@
+SELECT isbn, title, publish FROM books WHERE publish IN('日経BP','翔泳社');
