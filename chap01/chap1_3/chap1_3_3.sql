@@ -1,0 +1,1 @@
+SELECT DISTINCT l_name, f_name FROM usr;
