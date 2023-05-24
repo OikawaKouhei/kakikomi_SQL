@@ -1,0 +1,1 @@
+SELECT DISTINCT prefecture FROM quest;
