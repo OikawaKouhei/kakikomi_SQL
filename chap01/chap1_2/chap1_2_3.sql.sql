@@ -1,0 +1,1 @@
+SELECT l_name,f_name,class FROM employee;
