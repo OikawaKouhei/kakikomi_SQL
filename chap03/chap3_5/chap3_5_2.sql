@@ -1,0 +1,10 @@
+UPDATE
+	employee
+SET
+	class='主任',
+	last_update=CURRENT_DATE
+WHERE
+		l_name='山田'
+	AND
+		f_name='奈美'
+;
