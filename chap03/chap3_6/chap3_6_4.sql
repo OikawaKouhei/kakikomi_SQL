@@ -1,0 +1,17 @@
+UPDATE
+	books
+SET
+	category_id='XXXXX'
+WHERE
+	EXISTS
+		(
+		SELECT
+			*
+		FROM
+			rental
+		WHERE
+				returned=9
+			AND
+				books.isbn=rental.isbn
+		)
+;
