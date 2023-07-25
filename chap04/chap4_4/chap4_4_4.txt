@@ -1,0 +1,10 @@
++-------------+--------------+------+-----+---------+-------+
+| Field       | Type         | Null | Key | Default | Extra |
++-------------+--------------+------+-----+---------+-------+
+| log_id      | int(11)      | NO   | PRI | NULL    |       |
+| page_id     | char(5)      | YES  |     | NULL    |       |
+| referer     | varchar(200) | YES  |     | NULL    |       |
+| ip_address  | char(15)     | YES  |     | NULL    |       |
+| access_date | datetime     | YES  |     | NULL    |       |
++-------------+--------------+------+-----+---------+-------+
+5 rows in set (0.013 sec)
