@@ -1,0 +1,17 @@
++-------------+--------------+------+-----+---------+-------+
+| Field       | Type         | Null | Key | Default | Extra |
++-------------+--------------+------+-----+---------+-------+
+| user_id     | char(7)      | NO   | PRI | NULL    |       |
+| l_name      | varchar(20)  | YES  |     | NULL    |       |
+| f_name      | varchar(20)  | YES  |     | NULL    |       |
+| l_name_kana | varchar(100) | YES  |     | NULL    |       |
+| f_name_kana | varchar(100) | YES  |     | NULL    |       |
+| sex         | varchar(5)   | YES  |     | male    |       |
+| job         | varchar(30)  | YES  |     | NULL    |       |
+| prefecture  | varchar(15)  | YES  | MUL | NULL    |       |
+| city        | varchar(20)  | YES  |     | NULL    |       |
+| o_address   | varchar(100) | YES  |     | NULL    |       |
+| tel         | varchar(20)  | YES  |     | NULL    |       |
+| email       | varchar(255) | YES  |     | NULL    |       |
++-------------+--------------+------+-----+---------+-------+
+12 rows in set (0.013 sec)
