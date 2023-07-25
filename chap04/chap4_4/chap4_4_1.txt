@@ -1,0 +1,14 @@
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| isbn         | char(17)     | NO   | PRI | NULL    |       |
+| title        | varchar(255) | YES  |     | NULL    |       |
+| price        | int(11)      | YES  |     | NULL    |       |
+| publish      | varchar(100) | YES  |     | NULL    |       |
+| publish_date | date         | YES  |     | NULL    |       |
+| category_id  | char(5)      | YES  |     | NULL    |       |
+| sales        | int(11)      | YES  |     | NULL    |       |
+| rating       | char(1)      | NO   |     | B       |       |
+| pages        | int(11)      | YES  |     | 0       |       |
++--------------+--------------+------+-----+---------+-------+
+9 rows in set (0.014 sec)
